@@ -1,0 +1,18 @@
+{
+  "name": "y",
+  "version": "y",
+  "main": "y",
+  "license": "y",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "description": "y",
+  "repository": "y",
+  "author": "y",
+  "private": true
+}

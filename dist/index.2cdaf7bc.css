@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 660px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.text-container {
+  flex-direction: column;
+  gap: 35px;
+  margin: 70px 0;
+  display: flex;
+}
+
+.input-container {
+  flex-direction: column;
+  gap: 16px;
+  max-width: 352px;
+  margin: auto auto 60px;
+  display: flex;
+}
+
+.back-button-container {
+  max-width: 352px;
+  margin: auto auto 60px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
