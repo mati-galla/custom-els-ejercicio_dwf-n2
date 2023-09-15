@@ -1,5 +1,5 @@
 export function init() {
-  class headerWC extends HTMLElement {
+  class HeaderWC extends HTMLElement {
     constructor() {
       super();
       this.render();
@@ -46,5 +46,5 @@ export function init() {
     }
   }
 
-  customElements.define("header-wc", headerWC);
+  customElements.define("header-wc", HeaderWC);
 }

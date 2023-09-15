@@ -1,5 +1,5 @@
 export function init() {
-  class bodyWC extends HTMLElement {
+  class BodyWC extends HTMLElement {
     constructor() {
       super();
       this.render();
@@ -27,5 +27,5 @@ export function init() {
     }
   }
 
-  customElements.define("body-wc", bodyWC);
+  customElements.define("body-wc", BodyWC);
 }

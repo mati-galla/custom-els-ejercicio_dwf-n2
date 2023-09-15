@@ -3,4 +3,12 @@
   height: 233px;
   background: #ffa0ea;
   font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.root p {
+  margin: 0;
+  text-align: center;
 }

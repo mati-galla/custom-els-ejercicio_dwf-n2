@@ -1,5 +1,5 @@
 export function init() {
-  class largeTextWC extends HTMLElement {
+  class LargeTextWC extends HTMLElement {
     constructor() {
       super();
       this.render();
@@ -35,5 +35,5 @@ export function init() {
     }
   }
 
-  customElements.define("large-text-wc", largeTextWC);
+  customElements.define("large-text-wc", LargeTextWC);
 }

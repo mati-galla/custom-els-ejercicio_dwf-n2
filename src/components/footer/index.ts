@@ -1,5 +1,5 @@
 export function init() {
-  class footerWC extends HTMLElement {
+  class FooterWC extends HTMLElement {
     constructor() {
       super();
       this.render();
@@ -39,5 +39,5 @@ export function init() {
     }
   }
 
-  customElements.define("footer-wc", footerWC);
+  customElements.define("footer-wc", FooterWC);
 }

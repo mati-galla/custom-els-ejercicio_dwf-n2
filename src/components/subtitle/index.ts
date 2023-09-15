@@ -1,5 +1,5 @@
 export function init() {
-  class subtitleWC extends HTMLElement {
+  class SubtitleWC extends HTMLElement {
     constructor() {
       super();
       this.render();
@@ -27,5 +27,5 @@ export function init() {
     }
   }
 
-  customElements.define("subtitle-wc", subtitleWC);
+  customElements.define("subtitle-wc", SubtitleWC);
 }

@@ -1,5 +1,5 @@
 export function init() {
-  class textInputWC extends HTMLElement {
+  class TextInputWC extends HTMLElement {
     constructor() {
       super();
       this.render();
@@ -50,5 +50,5 @@ export function init() {
     }
   }
 
-  customElements.define("text-input-wc", textInputWC);
+  customElements.define("text-input-wc", TextInputWC);
 }

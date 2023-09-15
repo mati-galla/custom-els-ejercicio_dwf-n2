@@ -1,5 +1,5 @@
 export function init() {
-  class buttonWC extends HTMLElement {
+  class ButtonWC extends HTMLElement {
     constructor() {
       super();
       this.render();
@@ -42,5 +42,5 @@ export function init() {
     }
   }
 
-  customElements.define("button-wc", buttonWC);
+  customElements.define("button-wc", ButtonWC);
 }
